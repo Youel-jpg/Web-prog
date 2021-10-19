@@ -48,7 +48,9 @@ def opposite():
         d = d*10 + number
         b=int(b/10)
     if x>=0: print("Output: ", d)
-    else: print("Output: -", d)
+    else:
+        d = -d 
+        print("Output: ", d)
 
 # (4)
 # Написать функцию, которая будет расчитывать квадратный корень n-ой степени методом Ньютона
