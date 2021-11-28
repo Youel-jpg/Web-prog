@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+  <title>Youel</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="main">
+    <div class="centerBlock">
+      <h1 class="title">ЮЛЬ</h1>
+      <span class="text">Пристанище для палачей, горничной и наблюдателей.
+•••
+Автор ваншота "Ошибка 500: лишенный содержания"
+•••
+Круглосуточная горничная
+      </span>
+
+      <a href="./manga.html" class="button">Манга</a>
+      <hr class="divider">
+
+      <div id = "button_show">  
+        <div class="links">
+          <a target="_blank" href="https://www.instagram.com/ut.youel" class="link"><img src="./assets/instagram.png" alt="instagram"></a>
+          <a target="_blank" href="https://www.tiktok.com/@ut.youel?" class="link"><img src="./assets/tiktok.png" alt="tiktok"></a>
+          <a target="_blank" href="https://www.twitter.com/utyouel" class="link"><img src="./assets/twitter.png" alt="twitter"></a>
+          <a target="_blank" href="https://www.vk.com/youel" class="link"><img src="./assets/vk.png" alt="vk"></a>
+        </div>
+      </div>
+      
+      <script>
+          document.getElementById('button_show').hidden = true;
+      </script>
+
+   <div id = "button_hide">
+     <a class= "socialmedia">Социальные сети</a>
+   </div>
+   <script>
+    // Здесь не важно, как мы скрываем текст.
+    // Также можно использовать style.display:
+    document.getElementById('button_hide').onclick = function() {
+      document.getElementById('button_hide').hidden = true;
+      document.getElementById('button_show').hidden = false;
+    }
+  </script>   
+    </div>
+  </div>
+</body>
+</html>
